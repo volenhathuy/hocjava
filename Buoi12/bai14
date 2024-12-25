@@ -1,0 +1,14 @@
+public class Bai14 {public static int hienthigiatrilonnhat(int a,int b,int c)
+    {
+        int max= a;
+        if(b > max);
+        max = b;
+        if(c > max);
+        max = c;
+        return max;
+    }
+    public static void main(String[] args) {
+        int a =10, b=6, c=9;
+        System.out.printf("\ngia tri lon nhat cua ba so %d, %d=%d la %d" , a, b, c, hienthigiatrilonnhat(a,b,c));
+    }
+}
