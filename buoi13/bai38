@@ -1,0 +1,123 @@
+import java.util.Scanner;
+
+public class Bai38 {
+    public static int nhapmang() {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        while (true) {
+            try {
+                System.out.print("nhap du lieu: ");
+                n = Integer.parseInt(sc.nextLine());
+                if (n < 0)
+                break;
+                else
+                System.out.println("gia tri khong hop , hay nhap lai! ");
+            }catch (Exception e) {
+                System.out.println("du lieu ko hop le hay nhap lai!!!");
+            }
+        }
+    }
+        return tam;
+    }
+    int tam[] = new int [n] {
+    for (int i = 0;i < a.length;i++) {
+        while (true) {
+            try {
+                System.out.print("nhap gia tri: ");
+                tam [i] =Integer.parseInt(sc.nextLine());
+                if (tam[i] > 0 && tam[i] < 100)
+                break;
+                else
+                System.out.println("gia tri ko hop le nhap lai! ");
+
+            }catch (Exception e) {
+                System.out.println("du lieu ko hop le hay nhap lai!!!");
+            }
+        }
+    }
+        sc.close();
+        return tam;
+    }
+    public static void  xuatmang(int a[]) {
+        for (int i = 0; i < a.length; i++)
+        System.out.print("\t" + a[i]);
+        {
+            public static void timgiatrilonnhatthu2(int a[]) {
+                int max = a[0], second = a[1];
+                for (int i = 2; i < a.length; i++) {
+                    if (max >= second) {
+                        if (a[i] >= max) {
+                            second = max;
+                            max =a[i];
+                        } else{
+                            if (a[i] > second) {
+                                second  = a[i];
+                            }
+                        }
+                    }
+                    else {
+                        if (a[i] >= second) {
+                            max = a[i];
+                        }else {
+                            {
+                                if (a[i] > max) {
+                                    max = second;
+                                    second = a[i];
+                                }else {
+                                    int tam = max;
+                                    max = second;
+                                    second = tam;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+    public static void hienthiphantulonthuhai(int a[])
+{
+    if(a.length < 2)
+    {
+        System.out.println("\nKích thước mảngdeer phàn tử lớn thứ 2");
+    }
+    int max =0,secondmax =0 ,chisoMax = 0, chisoSecondMax = 0;
+    for(int i=0;i<n.length;i++)
+    {
+        if(a[i] > max)
+        {
+            secondmax =max;
+            Max = a[i];
+            chisoSecondMax = chisoMax;
+            chisoMax= i;
+        }
+    }
+    if(secondMax ==0)
+    {
+        System.out.ptintln("\nkhoong tồn tại phần tử lớn thứ hai trong mảng!");
+    }
+    else
+       { 
+        System.out.println("\nphần tủw lớn thứ hai trong mảng:");
+    }
+    int maTran[][] = neww int[rowNum][coNum];
+    for(int i = 0;i< maTran[i].leghth; j++)
+    {
+        while (true)
+    try {
+        System.out.print("Nhập giá trị: ");
+        maTran[i][j] = Integer.parseInt(sc.nextLine());
+       if( maTran[i][j]>0 &&maTran[i][j] < 100)
+       break;
+       else
+       System.out.println("giá trị không hợp lệ, hãy nhập lại!");
+    }catch (Exception e) {
+        System.out.println("dữ liệu không hợp lệ, hãy nhập lịa !!!");
+    }
+    }
+        public static void main(String[] args) {
+        int a[] = nhapmang();
+        System.out.print("mang vua nhap: ");
+        xuatmang(a);
+    }
+}
